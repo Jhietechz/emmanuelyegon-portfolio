@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', 'Inter', 'Roboto', sans-serif;
+}
+
+/* Custom vertical scrollbar */
+body, html, #root {
+  scrollbar-width: thin;
+  scrollbar-color: #C8A2C8 transparent;
+}
+
+body::-webkit-scrollbar, html::-webkit-scrollbar, #root::-webkit-scrollbar {
+  width: 6px;
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb, html::-webkit-scrollbar-thumb, #root::-webkit-scrollbar-thumb {
+  background: transparent;
+  display: none;
+}
+
+body::-webkit-scrollbar-track, html::-webkit-scrollbar-track, #root::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: none;
+}
