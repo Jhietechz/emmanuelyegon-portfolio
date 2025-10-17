@@ -205,15 +205,15 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/emmanuelyegon-portfolio">
       <ClickSpark>
         <div className="min-h-screen text-white font-sans">
           <Navbar />
           <main>
             <Routes>
               <Route path="/cv-upload" element={<CvUpload />} />
-              {/* Add a catch-all route for 404s */}
-              <Route path="*" element={<HomePage />} />
+             <Route path="/" element={<HomePage />} />
+             <Route path="*" element={<HomePage />} /> 
             </Routes>
           </main>
         </div>
