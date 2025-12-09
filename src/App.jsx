@@ -205,7 +205,7 @@ function App() {
   };
 
   return (
-    <Router basename="/emmanuelyegon-portfolio">
+<Router basename="/">
       <ClickSpark>
         <div className="min-h-screen text-white font-sans">
           <Navbar />

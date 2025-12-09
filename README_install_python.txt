@@ -12,6 +12,10 @@ To use the Python PDF generator, you need Python and pip installed.
 3. To install the required package, run:
    python -m pip install fpdf2
 
+# If you see "ModuleNotFoundError: No module named 'fpdf'", it means fpdf2 is not installed.
+# Run the above command to install it, then try again:
+   python generate_cv_template.py
+
 Now you can run your Python script as:
    python generate_cv_template.py
 
