@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import PixelBlast from "./PixelBlast"; 
 import "./PixelBlast.css"; 
 
-const profilePic = "Public/images/profile.jpg";
+const profilePic = "/images/profile.jpg";
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 const gradientTextStyle = {
